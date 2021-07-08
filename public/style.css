@@ -1,0 +1,194 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color:rgb(218, 218, 218);
+}
+h1{
+    font-size: 70px;
+}
+img{
+    display: inline;
+    max-width: 300px;
+    max-height: 300px;
+    border: 10px solid white;
+    border-radius:2rem;
+
+}
+
+header{
+    padding-top: 30px;
+    min-height: 70px;
+    color: White;
+    background-color:  rgb(121, 187, 160);
+    border-bottom:solid 3px rgb(77, 13, 13);
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    
+    
+ 
+}
+header nav { 
+    background-image: url("./bg-image1.jpg");
+  display: flex;
+flex-direction: row;
+border: 5px solid whitesmoke ;
+border-radius:2rem;
+
+
+}
+
+.removeDecorations{
+    display: flex;
+    list-style: none;
+    
+}
+main section{
+    color:rgb(77, 13, 13);
+    background-color:rgb(218, 218, 218);
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+.navLink{
+    margin: 8px;
+
+    border:5px solid  whitesmoke ;
+    border-radius:2rem;
+    background-color:whitesmoke;
+}
+nav a{
+
+    color:rgb(121, 187, 160);
+    text-decoration: none;
+}
+
+footer{
+    color: whitesmoke;
+    border-top: 15px solid rgb(77, 13, 13) ;
+    background-color: rgb(97, 97, 97);
+  
+  text-align: center;
+}
+aside{
+    color:whitesmoke;
+    background-color :rgb(218, 218, 218);
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    
+}
+aside a{
+    color: whitesmoke;
+    font-size: 10px;
+    
+}
+
+.box-1{
+border: 10px transparent blue;
+text-decoration: underline;
+
+}
+.border-left{
+    border-left: 10px solid whitesmoke;
+    padding-left: 15px;
+}
+.underline{
+    text-decoration: underline;
+}
+.project1{
+    background-color:rgb(121, 187, 160);
+    font-size: 20px;
+    border: 5px solid   whitesmoke;
+    border-radius:2rem;
+  
+ 
+}
+.codeQuiz{
+    background-color:rgb(121, 187, 160);
+    font-size: 20px;
+    border: 5px solid  whitesmoke;
+    border-radius:2rem;
+ 
+
+}
+
+.background1{
+    background-color:rgb(121, 187, 160);
+    border: 10px solid whitesmoke;
+    border-radius:2rem;
+    width:33%
+
+}
+.background2{
+    background-color:rgb(121, 187, 160);
+    border: 10px solid whitesmoke;
+    border-radius:2rem;
+    width:100px;
+    width:33%
+   
+    
+    
+}
+/*
+.background3{
+    background-image: url("./bgimage3.jpg");
+    border: 10px solid whitesmoke;
+     display: flex;
+     justify-self: flex-start;
+     width:33%
+   
+    
+}*/
+
+#resume{
+    background-image: url("./bg-image1.jpg");
+  border: 5px solid whitesmoke ;
+  border-radius:3rem;
+  text-align: center;
+  text-decoration:underline;
+    
+}
+#contact{
+    background-image: url("./bg-image1.jpg");
+    border: 5px solid whitesmoke ;
+    border-radius:3rem;
+    text-align: center;
+    text-decoration:underline;
+}
+#portfolio{
+    background-image: url("./bg-image1.jpg");
+    border: 5px solid whitesmoke ;
+    border-radius:3rem;
+    text-align: center;
+    text-decoration:underline;
+    
+}
+#about{
+    background-image: url("./bg-image1.jpg");
+    border: 5px solid whitesmoke ;
+    border-radius:3rem;
+    color: white;
+}
+#skills{
+    background-image: url("./bg-image1.jpg");
+    border: 5px solid whitesmoke ;
+    border-radius:3rem;
+    color: white;
+}
+@media screen and (max-width: 796px) {
+
+  main section div{
+
+    display: flex;
+    flex-direction: column;
+  }
+  aside div{ display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-grow: 1;
+
+  }
+}
