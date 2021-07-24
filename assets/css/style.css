@@ -91,6 +91,7 @@ aside a{
     
 }
 .intro{
+    
     animation: fade .8s cubic-bezier(.07,.86,.57,1.29);
 }
 @keyframes fade {
@@ -105,6 +106,12 @@ aside a{
         transform: scale3d(1,1,1,1);
 
     }
+}
+.introduction {
+    font-family:"Times New Roman", Times, serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: rgb(77, 13, 13);
 }
 
 .box-1{
