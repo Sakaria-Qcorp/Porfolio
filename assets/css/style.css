@@ -117,7 +117,7 @@ aside a{
 }
 
 .box-1{
-border: 10px transparent blue;
+border: 10px solid rgb(77, 13, 13);
 text-decoration: underline;
 
 }
@@ -133,7 +133,7 @@ text-decoration: underline;
     background-color:whitesmoke;
     font-size: 20px;
     
-    border: 5px solid   whitesmoke;
+    border: 5px solid  wheat;
     border-radius:2rem;
   
  
@@ -142,7 +142,7 @@ text-decoration: underline;
     color:  rgb(77, 13, 13);
     background-color:whitesmoke;
     font-size: 20px;
-    border: 5px solid  whitesmoke;
+    border: 5px solid wheat ;
     border-radius:2rem;
  
 
