@@ -13,11 +13,13 @@ img{
     display: inline;
     max-width: 600px;
     max-height: 600px;
-    border: 10px solid white;
+    border: 10px solid rgb(77, 13, 13);
     border-radius:2rem;
 
 }
-
+.center{
+    text-align: center;
+}
 header{
     padding-top: 30px;
     min-height: 70px;
@@ -127,7 +129,8 @@ text-decoration: underline;
     text-decoration: underline;
 }
 .project1{
-    background-color:rgb(121, 187, 160);
+    color:  rgb(77, 13, 13);
+    background-color:whitesmoke;
     font-size: 20px;
     
     border: 5px solid   whitesmoke;
@@ -136,7 +139,8 @@ text-decoration: underline;
  
 }
 .codeQuiz{
-    background-color:rgb(121, 187, 160);
+    color:  rgb(77, 13, 13);
+    background-color:whitesmoke;
     font-size: 20px;
     border: 5px solid  whitesmoke;
     border-radius:2rem;
